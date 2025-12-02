@@ -45,6 +45,24 @@ img {
 .cover-news{
     background-image: url("../images/cover-news-s.webp");
 }
+/* メニュー */
+.cover-menu{
+    background-image: url("../images/cover-menu-s.webp");
+}
+.grid{
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.item p{
+    font-size: 0.875rem;
+}
+
 /* 記事部分 */
 .post{
     margin-bottom: 3rem;
